@@ -1,0 +1,28 @@
+.body{
+    margin:0;
+}
+.img-area{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    height:200px;
+    width:300px;
+}
+.wrapper h1{
+    text-align:center;
+    background-color:chartreuse;
+    margin:15px;
+    padding:20px;
+    font-size:25px;
+    font-family:audiowide;
+}
+.item{
+    padding:0 20px 20px;
+}
+img.hover{
+    capacity:0.5;
+    transition:1s;
+}
